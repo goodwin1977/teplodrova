@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teplodrov</title>
+  <link rel="stylesheet" href="libs/bootstrap-4.6/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="libs/fancyBox/jquery.fancybox.min.css"> -->
+  <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="libs/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick/slick-theme.css">
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo.svg">
+          </a>
+        </div>
+        <nav class="header-menu">
+          <ul>
+            <li class="header-menu_item"><a href="#" class="header-menu_link">Дрова и уголь</a></li>
+            <li class="header-menu_item"><a href="#" class="header-menu_link">Доставка</a></li>
+            <li class="header-menu_item"><a href="#" class="header-menu_link">Нам доверяют</a></li>
+            <li class="header-menu_item"><a href="#" class="header-menu_link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header-connection_block">
+          <a href="mailto:resto@teplodrov.ru" class="e-mail">resto@teplodrov.ru</a>
+          <div>
+            <a href="" class="telegram"><img src="images/telegram-icon.svg" alt="telegram-icon"></a>
+            <a href="" class="whatsapp"><img src="images/wa-icon.svg" alt="wa-icon"></a>
+          </div>
+        </div>
+        <div class="header-contacts_block">
+          <div class="time">
+            <a href="tel:+79090004604" class="header-phone"><span class="phone-desc">+7 909 000 46 04</span>
+              <span class="phone-mobile">
+                <img src="images/phone-mobile-icon.svg" alt="">
+              </span>
+            </a>
+          </div>
+          <a href="" class="callback">Связаться с нами</a>
+          <div class="menu-burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="banner bg-video">
+    <video poster="images/banner.png" autoplay="" muted="" loop="" class="d-none d-md-block">
+      <source src="images/bg-video.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <div class="row justify-content-between align-items-baseline">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <div class="main-info">
+            <h1 class="main-title">Поставка угля и дров в рестораны Екатеринбурга</h1>
+            <div class="advant-list">
+              <div class="advant-item">
+                <div class="advant-img">
+                  <img class="" src="images/advan-1.png" srcset="images/advan-1.png 2x" alt="">
+                </div>
+                <div class="advant-description">Отборные<br>сухие дрова</div>
+              </div>
+              <div class="advant-item">
+                <div class="advant-img correct">
+                  <img class="" src="images/advan-2.png" srcset="images/advan-2.png 2x" alt="">
+                </div>
+                <div class="advant-description">Березовый уголь<br>премиум качества</div>
+              </div>
+              <div class="advant-item">
+                <div class="advant-img correct2">
+                  <img class="" src="images/advan-3.png" srcset="images/advan-3.png 2x" alt="">
+                </div>
+                <div class="advant-description">Бесплатная<br>доставка</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+          <div class="header-form">
+            <div class="header-form_title">Рассчитать стоимость поставки</div>
+            <form action="">
+              <div class="form-group">
+                <label for="name">Имя*</label>
+                <input type="text" class="form-control" id="name" placeholder="Введите имя" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Телефон*</label>
+                <input type="text" class="form-control" id="phone" placeholder="Введите телефон" required>
+              </div>
+              <button type="submit" class="header-form_btn">Рассчитать стоимость поставки</button>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="policy" checked>
+                <label class="form-check-label" for="policy">Я согласен с <a href="#">условиями передачи
+                    информации</a></label>
+              </div>
+            </form>
+          </div>
+          <div class="header-form-mobile">
+            <button class="header-form_btn-mobile" data-toggle="modal" data-target="#exampleModal">Рассчитать стоимость
+              поставки</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="coal">
+    <div class="elem">
+      <img src="images/treangle.svg" alt="">
+      <span>КАТАЛОГ</span>
+    </div>
+    <h2 class="section-title">ДРОВА И УГОЛЬ</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-xl-6 col-md-12 mb-3">
+          <div class="coal-item">
+            <div class="row no-gutters">
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-images">
+                  <img class="img-fluid" src="images/coal-1-1.png" alt="coal-img">
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-card-body">
+                  <h5 class="coal-title">Уголь березовый премиум</h5>
+                  <ul>
+                    <li>- Фасовка 9 кг</li>
+                    <li>- Крупная фракция</li>
+                    <li>- Премиум качество</li>
+                    <li>- Бесплатная доставка</li>
+                    <li>- Для мангалов, хосперов</li>
+                  </ul>
+                  <p class="read_more">Показать еще</p>
+                  <a href="" class="btn-buy" data-toggle="modal" data-target="#exampleModal2">Купить</a>
+                </div>
+                <div class="price">340 руб.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-md-12 mb-3">
+          <div class="coal-item">
+            <div class="row no-gutters">
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-images ber-slider">
+                  <div>
+                    <div class="cm">30 см средняя колка</div>
+                    <img class="img-fluid" src="images/coal-2-1.png" alt="coal-img">
+                  </div>
+                  <div>
+                    <div class="cm">40 см средняя колка</div>
+                    <img class="img-fluid" src="images/coal-2-1.png" alt="coal-img">
+                  </div>
+                  <div>
+                    <div class="cm">30 см средняя колка</div>
+                    <img class="img-fluid" src="images/coal-2-1.png" alt="coal-img">
+                  </div>
+                  <div>
+                    <div class="cm">40 см средняя колка</div>
+                    <img class="img-fluid" src="images/coal-2-1.png" alt="coal-img">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-card-body">
+                  <h5 class="coal-title">Дрова березовые</h5>
+                  <ul>
+                    <li>- Сухие (Влажность <span>
+                        <</span> 15%)</li> <li>- В вязанке</li>
+                    <li>- Фасовка 10 кг</li>
+                    <li>- С корой</li>
+                    <li>- Длина 30 см и 40 см</li>
+                    <li>- Колка средняя и мелкая</li>
+                  </ul>
+                  <p class="read_more">Показать еще</p>
+                  <a href="" class="btn-buy" data-toggle="modal" data-target="#exampleModal3">Купить</a>
+                </div>
+                <div class="price">340 руб.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-md-12 mb-3">
+          <div class="coal-item">
+            <div class="row no-gutters">
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-images cil-slider">
+                  <div>
+                    <div class="cm">30 см</div>
+                    <img class="img-fluid" src="images/coal-3-1.png" alt="coal-img">
+                  </div>
+                  <div>
+                    <div class="cm">40 см</div>
+                    <img class="img-fluid" src="images/coal-3-2.png" alt="coal-img">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-card-body">
+                  <h5 class="coal-title">Дрова оцилиндрованные</h5>
+                  <ul>
+                    <li>- Сухие (Влажность <span>
+                        <</span> 15%)</li> <li>- В вязанке</li>
+                    <li>- Фасовка 10 кг</li>
+                    <li>- Без коры</li>
+                    <li>- Длина 30 см и 40 см</li>
+                  </ul>
+                  <p class="read_more">Показать еще</p>
+                  <a href="" class="btn-buy">Купить</a>
+                </div>
+                <div class="price">340 руб.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-md-12 mb-3">
+          <div class="coal-item">
+            <div class="row no-gutters">
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-images">
+                  <img class="img-fluid" src="images/coal-4.png" alt="coal-img">
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6">
+                <div class="coal-card-body">
+                  <h5 class="coal-title">Дрова осиновые</h5>
+                  <ul>
+                    <li>- Сухие (Влажность <span>
+                        <</span> 15%)</li> <li>- В вязанке</li>
+                    <li>- Фасовка 10 кг</li>
+                    <li>- С корой</li>
+                    <li>- Длина 40 см</li>
+                  </ul>
+                  <p class="read_more">Показать еще</p>
+                  <a href="" class="btn-buy">Купить</a>
+                </div>
+                <div class="price">340 руб.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="calc">
+    <h2 class="section-title">РАССЧИТАЙТЕ СТОИМОСТЬ ПОСТАВКИ</h2>
+    <div class="section-subtitle">На связи 24/7, всегда в наличии</div>
+    <div class="container">
+      <form action="">
+        <div class="form-row align-items-end">
+          <div class="form-group col-md-4">
+            <label for="name">Имя*</label>
+            <input type="text" class="form-control" id="name" placeholder="Введите имя" required>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="phone1">Телефон*</label>
+            <input type="text" class="form-control" id="phone1" placeholder="Введите телефон" required>
+          </div>
+          <div class="col-md-4 sel">
+            <button type="submit" class="calc-form_btn">Связаться с менеджером</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="delivery">
+    <div class="elem">
+      <img src="images/treangle.svg" alt="">
+      <span>ДОСТАВКА</span>
+    </div>
+    <h2 class="section-title">доставка</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 mb-3">
+              <div class="delivery-item">
+                <div class="delivery-item_title">Бесплатная доставка</div>
+                <div class="delivery-item_subtitle"></div>
+                <div class="delivery-item_img">₽</div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mb-3">
+              <div class="delivery-item">
+                <div class="delivery-item_title">Возим от 10 единиц товара</div>
+                <div class="delivery-item_subtitle">(за пределы Екатеринбурга от 20 ед.)</div>
+                <div class="delivery-item_img">10</div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mb-3">
+              <div class="delivery-item">
+                <div class="delivery-item_title">Заказ за 1-2 дня</div>
+                <div class="delivery-item_subtitle"></div>
+                <div class="delivery-item_img">1-2</div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mb-3">
+              <div class="delivery-item">
+                <div class="delivery-item_title">Дрова и уголь всегда в наличии</div>
+                <div class="delivery-item_subtitle"></div>
+                <div class="delivery-item_img">
+                  <img src="images/del-icon-4.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="swiper mb-lg-3 mb-md-3">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/1.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/2.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/3.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/4.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/5.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/6.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/7.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/8.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/9.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/10.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/11.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/12.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div dir="rtl" class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <!-- <a data-fancybox="" href="images/slides/13.jpg"> -->
+        <img class="img-fluid" src="images/slides/13.jpg">
+        <!-- </a> -->
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/14.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/15.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/16.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/17.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/18.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/19.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/20.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/21.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/22.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="images/slides/23.jpg">
+      </div>
+    </div>
+  </div>
+
+  <section class="prof">
+    <div class="elem">
+      <img src="images/treangle.svg" alt="">
+      <span>ПРЕИМУЩЕСТВА</span>
+    </div>
+    <h2 class="section-title">МЫ ПРОФЕССИОНАЛЫ ПО ДРОВАМ И УГЛЮ В СФЕРЕ HORECA</h2>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-4">
+          <div class="prof-item">
+            <div class="prof-item_img">
+              <img src="images/prof-1.svg" alt="">
+            </div>
+            <div class="prof-item_title">Бесперебойные поставки</div>
+            <div class="prof-item_subtitle">На связи 24/7, всегда<br>в наличии</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="prof-item">
+            <div class="prof-item_img">
+              <img src="images/prof-2.svg" alt="">
+            </div>
+            <div class="prof-item_title">Без предоплаты</div>
+            <div class="prof-item_subtitle">Постоплата до 14 дней, работаем<br>по договору</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="prof-item">
+            <div class="prof-item_img">
+              <img src="images/prof-3.png" alt="">
+            </div>
+            <div class="prof-item_title">Премиум качество</div>
+            <div class="prof-item_subtitle">Дров и угля</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="who">
+    <h2 class="section-title">ДЛЯ КОГО</h2>
+    <div class="section-subtitle">На связи 24/7, всегда в наличии</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="who-item">
+            <div class="who-item_img"><img class="img-fluid" src="images/who-1.png" alt=""></div>
+            <div class="who-item_title">Кафе и рестораны</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="who-item">
+            <div class="who-item_img"><img class="img-fluid" src="images/who-2.png" alt=""></div>
+            <div class="who-item_title">Базы отдыха</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="who-item">
+            <div class="who-item_img"><img class="img-fluid" src="images/who-3.png" alt=""></div>
+            <div class="who-item_title">ПРЕДПРИЯТИЯ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pluses">
+      <div class="pluses-wrapper">
+        <div class="row align-items-center justify-content-around">
+          <div class="col-md-3 col-12">
+            <div class="plus-item">
+              <div class="plus-item_img"><img src="images/1.svg" alt=""></div>
+              <div class="plus-item_slogan">день среднее время<br>доставки</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="plus-item lines">
+              <div class="plus-item_img"><img src="images/7.svg" alt=""></div>
+              <div class="plus-item_slogan">лет производим<br>дрова и уголь</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="plus-item">
+              <div class="plus-item_img"><img src="images/50.svg" alt=""></div>
+              <div class="plus-item_slogan">ресторанов в Екатеринбурге<br>доверяют нам</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners">
+    <div class="elem">
+      <img src="images/treangle.svg" alt="">
+      <span>КЛИЕНТЫ</span>
+    </div>
+    <h2 class="section-title">НАМ ДОВЕРЯЮТ РЕСТОРАНЫ<br>ЕКАТЕРИНБУРГА</h2>
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-1.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-2.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-3.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-4.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-5.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-6.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-7.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-8.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-9.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-10.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-11.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-12.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-13.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-14.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-15.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-16.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-17.png" alt=""></div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-5"><img class="img-fluid" src="images/rest-18.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row justify-content-between foot-mobile">
+        <div class="col-md-12 col-lg-4 col-xs-3">
+          <div class="footer-left_block">
+            <div class="logo"><a href="/"><img src="images/logo.svg" alt=""></a></div>
+            <div class="copyright">© 2021 "Теплодров". Все права защищены.</div>
+            <div class="dev">Разработка сайта — <a href="https://konversia.pro">Конверсия</a></div>
+            <div class="footer-cont">
+              <a class="footer-cont_link" href=""><img src="images/telegram-icon.svg" alt=""></a>
+              <a class="footer-cont_link" href=""><img src="images/wa-icon.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="footer-center_block">
+            <a href="mailto:resto@teplodrov.ru" class="footer-mail">resto@teplodrov.ru</a>
+            <a href="tel:+79090004604" class="footer-phone">+7 909 000 46 04</a>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <div class="footer-right_block">
+            <div class="footer-right_block-title">Получить индивидуальные условия поставки</div>
+            <div class="footer-right_block-subtitle">На связи 24/7, всегда в наличии</div>
+            <a href="" class="footer-callback">Связаться с менеджером</a>
+          </div>
+        </div>
+      </div>
+      <div class="copy-dev-mobile"></div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade modal-form" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">РАССЧИТАЙТЕ<br>СТОИМОСТЬ ПОСТАВКИ</h5>
+          <div class="modal-subtitle">На связи 24/7, всегда<br>в наличии</div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade modal-order" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Заказать уголь березовый</h5>
+          <div class="modal-subtitle">Оставьте контакты, специалист свяжется с вами для уточнения деталей</div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-group">
+              <label for="name">Имя*</label>
+              <input type="text" class="form-control" id="name" placeholder="Введите имя" required>
+            </div>
+            <div class="form-group">
+              <label for="phone2">Телефон*</label>
+              <input type="text" class="form-control" id="phone2" placeholder="Введите телефон" required>
+            </div>
+            <button type="submit" class="header-form_btn">Заказать</button>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="policy" checked>
+              <label class="form-check-label" for="policy">Я согласен с <a href="#">условиями передачи
+                  информации</a></label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade modal-order modal-ok" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Спасибо за заказ!</h5>
+          <div class="modal-subtitle">В ближайшее время мы с вами свяжемся, ожидайте звонка</div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid" src="images/image-ok.png" alt="">
+          <div class="ok-flag"></div>
+        </div>
+        <a href="/" class="header-form_btn">На главную</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="libs/bootstrap-4.6/bootstrap.min.js"></script>
+  <script src="libs/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+  <!-- <script src="libs/fancyBox/jquery.fancybox.min.js"></script> -->
+  <script src="libs/slick/slick.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
